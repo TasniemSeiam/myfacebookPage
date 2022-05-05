@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Login </title>
+    <link rel="stylesheet" href="../css/all.min.css">
+    <link rel="stylesheet" href="../css/venders/aos.css">
+    <link rel="stylesheet" href="../css/venders/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/venders/owl.carousel.css">
+    <link rel="stylesheet" href="../css/stylepro.css">
+</head>
+<body class="bodyLogin">
+    <h1 class="smart reden" >Smart Code </h1>
+    <div class="welcome  ">
+        <div class="welcomeib mt-1">
+            <i class="far fa-user mt-4"></i>
+        </div><!-- div of icon -->
+        <span class="buttons reden">
+            <button class="loginBt  p-3">Login </button>
+            <button class="signupBt reden  p-3">Sign Up</button>
+        </span><!-- buttons login & signup -->
+       
+    </div><!-- welcome login and sign up-->
+
+    <div class="login ">
+        <h2 class="m-4"> Welcome Back !</h2>
+        <i class="far fa-window-close  closing"></i>
+        <form action="" class="forms ">
+              <label for="user" class="itext reden" width >
+                <i class="fas fa-user formicon my-2  "></i>
+              </label>
+             <input type="text" name="user" id="user" class="user   mb-4" placeholder="User Name">
+           
+             <label for="password" class="itext " >
+                <i class="fas fa-user-lock formicon my-2"></i>
+             </label>
+             <input type="password" name="password" class="password  mb-4" id="password" placeholder="Password">
+            
+            <input type="button" name="login" value="Login" id="login" class="btn formbtn">
+        </form>
+        <p><a class="forgetpass"href="#"> Forget Password</a></p>
+    </div><!-- login form -->
+
+    <div class="signup mt-2 px-4">
+        <h3 class="pt-4">Sign up</h3>
+        <p class="pb-1 p">it's quick and easy</p>
+        <i class="far fa-window-close  closesignup"></i>
+        <form action="" class="forms" id="form">
+            <label for="username" class="lables"> User Name</label>
+            <input type="text" class="username reden" placeholder="Enter user name.." name="username" id="username">
+            <label for="pass" class="lables"> Password </label>
+            <input type="password" class="pass reden" placeholder="Enter password.." name="pass" id="pass">
+            <label for="email"class="lables"> Email </label>
+            <input type="email" class="email reden" placeholder="Enter email.." name="email" id="email">
+            <label for="gender" class="lables"><p  id="gender">Gender :</p>
+              Male <input type="radio" name="gender" value="male" id="gender" >
+              Female <input type="radio" name="gender" value="female" id="gender">
+            </label>
+            <label for="country" class="country lables">Country :</label>
+            <select name="country" id="country" >
+                <option value="egypt" selected>Egypt</option>
+                <option value="italy" >Italy</option>
+                <option value="france" >France</option>
+                <option value="ksa" >KSA</option>
+            </select>
+            <input type="submit" id="signUpsubmit"class="reden" name="signUp" value="Sign Up">
+        </form>
+    </div><!-- sign up form -->
+
+
+    
+
+
+
+
+
+
+    <script src="../js/jquery-3.5.1.min.js"></script>
+    <script src="../js/vendors/bootstrap.bundle.min.js"></script>
+    <script src="../js/vendors/owl.carousel.js"></script>
+    <script src="../js/vendors/jquery.countTo.js"></script>
+    <script src="../js/mainpro.js"></script>
+</body>
+</html>
